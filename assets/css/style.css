@@ -23,6 +23,7 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 280%;
+    margin-left: 30px;
 }
 
 /* navigation links */
@@ -75,9 +76,27 @@ html {
     min-height: 100%;
 }
 
-    
+/* about us */
 
-    
+#about-us {
+height: 600px;
+}
+
+#pragraph-1 {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+    background-color: darkorchid;
+}
+
+#pragraph-2 {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+    background-color: greenyellow;
+}  
+
+
  
     
 
