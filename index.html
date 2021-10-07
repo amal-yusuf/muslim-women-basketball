@@ -22,10 +22,10 @@
             <ul id="menu">
 
                 <li>
-                    <a href="#">Sign Up</a>
+                    <a href="signup.html" class="active">Sign Up</a>
                 </li>
                 <li>
-                    <a href="#">About Us</a>
+                    <a href="aboutus.html" class="active">About Us</a>
                 </li>
                 <li>
                     <a href="index.html" class="active">Home</a>
@@ -61,7 +61,28 @@
 
     <section>Training Session Details, location, time, and date</section>
 
-    <section>Sign Up</section>
+    <section>  
+                <form method="POST" action="https://formdump.codeinstitute.net/">
+                    
+                    <h2>Let's get you signed up!  <i class="fas fa-basketball-ball"></i> </h2>
+                    
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="first_name"  required>
+                    
+                    <label for="lname">Last Name</label>
+         <input type="text" id="lname" name="last_name" required>
+        
+                    <label for="phone">Contact Number</label>
+                     <input type="tel" id="phone" name="phone" required>
+        
+                    
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email_address" required>
+                    
+                 <input type="submit" value="Let's Play!">
+                    
+                </form>
+        </section>
 
     <footer>
         Social links here!
