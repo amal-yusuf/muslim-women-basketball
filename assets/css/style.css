@@ -78,11 +78,7 @@ html {
    /* background-color: #464646; */
     background-color: #209c31;
     min-height: 100%;
-} 
-
-
-  
-  
+}  
 
 /* about us */
 
@@ -120,6 +116,12 @@ color: white;
     content: "";
     display: table;
     clear: both;
+  }
+
+  /* contact */
+  
+  .contact {
+    font-weight: bold;
   }
 
 /* Form */
