@@ -9,15 +9,17 @@ body {
     font-family: Lato, sans-serif;
     font-weight: 300;
     color: #3a3a3a;
+   
 }
 
 /* headings and logo */
 
-h1, h2 {
+h1, h2, h3{
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
     color: #483c32;
+    color: #fff;
 }
 
 #logo {
@@ -57,24 +59,26 @@ h1, h2 {
 }
   
 
-    /* basketball hoop image */
+    /* basketball hoop image 
 
 #basketball-hoop-outer {
     height: 600px;
     width: 100%;
     overflow: hidden;
-}
+} */
 
 /* background image is always centered vertically and horizontally at all times */
 
 html {
     
-    background: url("../images/basketball-hoop-image.jpeg") no-repeat center center fixed;
+    /* background: url("../images/basketball-hoop-image.jpeg") no-repeat center center fixed; */
     background-size: cover;
     background-attachment: fixed;
-    background-color: #464646;
+   /* background-color: #464646; */
+    background-color: #209c31;
     min-height: 100%;
-}
+} 
+
 
 /* about us */
 
