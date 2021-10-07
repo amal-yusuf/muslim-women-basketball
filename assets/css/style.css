@@ -3,6 +3,7 @@
 * { margin: 0;
     padding: 0;
     border: none;
+    box-sizing: border-box;
 }
 
 body {
@@ -80,6 +81,9 @@ html {
 } 
 
 
+  
+  
+
 /* about us */
 
 #about-us {
@@ -94,9 +98,6 @@ color: white;
     background-color: darkorchid;
 }
 
-
-
-
 .p1 {
     width: 60%;
     float: left;
@@ -105,3 +106,18 @@ color: white;
     margin-bottom: 50px;
 }
  
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+    height: 300px; 
+   
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
