@@ -58,6 +58,10 @@ h1, h2, h3{
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
+
+.text-uppercase {
+    text-transform: uppercase;
+}
   
 
     /* basketball hoop image 
@@ -167,20 +171,25 @@ color: white;
 
 footer{
     height: 150px;
+    background-color: #1c1a19;
+    padding: 1em;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 3;
+    
 }
 
 .social-networks{
     text-align: center;
-
-}
-
-.social-networks li{
-    display: inline;
 }
 
 .social-networks i{
     font-size: 160%;
     margin: 1%;
     padding: 5%;
-    color: #3a3a3a;
+    color: silver;
+    line-height: 40px;
 }
