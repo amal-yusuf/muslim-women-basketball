@@ -14,29 +14,29 @@
 
 <body>
     <header>
-        <a href="#home">
+    
             <h1 id="logo">Muslim Women Basketball</h1>
-        </a>
+    
 
-        <nav>
+        <nav class="text-center text-uppercase black-background">
             <ul id="menu">
 
                 <li>
-                    <a href="#contact-us" class="active">Contact Us</a>
+                    <a href="#contact-us" class="active" aria-label="Go to contact information section">Contact Us</a>
                 </li>
                 
                 <li>
-                    <a href="#sign-up" class="active">Sign Up</a>
+                    <a href="#sign-up" class="active" aria-label="Go to sign-up section">Sign Up</a>
                 </li>
                 <li>
-                    <a href="#scrimmage-session" class="active">Scrimmage Session</a>
+                    <a href="#scrimmage-session" class="active" aria-label="Go to scrimmahe session section">Scrimmage Session</a>
                 </li>
                 
                 <li>
-                    <a href="#about-us" class="active">About Us</a>
+                    <a href="#about-us" class="active" aria-label="Go to about-us section">About Us</a>
                 </li>
                 <li>
-                    <a href="#home" class="active">Home</a>
+                    <a href="#home" class="active" aria-label="Go to the top of the page">Home</a>
                 </li>
 
             </ul>
@@ -50,9 +50,8 @@
         </section>
     </div>
 
-    <div id="about-us">
-
-        <section id="about-us">
+    <section id="about-us">
+        <div id="about-us" class="text-white"></div>
             <h2>About Us</h2>
             <br>
 
@@ -73,8 +72,9 @@
                         Women are visibly part of every aspect of the basketball world.</p>
                 </div>
             </div>
+        </div>
         </section>
-    </div>
+   
 
     <div id="scrimmage-session">
         <section>
@@ -82,31 +82,28 @@
             <h2>Scrimmage Session<i class="fas fa-basketball-ball"></i></h2>
             <br>
 
-            <div class="row">
-                <div class="column" style="background-color:#aaa;">
-                    <h3>Date</h3>
-                    <p>Every Friday</p>
-                </div>
-                <div class="column" style="background-color:#bbb;">
-                    <h3>Time</h3>
-                    <p>18:30-20:30</p>
-                </div>
-                <div class="column" style="background-color:#ccc;">
-                    <h3>Cost</h3>
-                    <p> First session is free and £3 thereafter (We do not want to exclude anyone, so if you want to
-                        play but cost is an issue, please talk to us)</p>
-                </div>
-                <div class="column" style="background-color:#ddd;">
-                    <h3>Location</h3>
-                    <p> Enterprise Academy, 81-91 Commercial Rd, London E1 1RD (5th floor sports hall)</p>
-                </div>
-            </div>
+            <table>
+                <tr class="table-header">
+                    <th class="first">Date</th>
+                    <th class="second">Time</th>
+                   <th class="third">Cost</th>
+                    <th class="fourth">Location</th>
+                </tr>
+                <tr>
+                    <span><td class="wide top first">Every Friday</td>/<span>
+                   <span> <td class="wide top second">18:30-20:30</td></span>
+                   <span> <td class="wide top third">First session is free and £3 thereafter (We do not want to exclude anyone, so if you want to play but cost is an issue, please talk us)</td></span>
+                   <span> <td class="wide top fourth">Enterprise Academy, 81-91 Commercial Rd, London E1 1RD (5th floor sports hall)</td></span>
+        
+                </tr>
+        </table>
+        
 
         </section>
     </div>
 <br>
 
-    <div id="sign-up">
+    <div id="sign-up" class="text-white">
         <section class="form-section">
             <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
 
@@ -131,17 +128,19 @@
         </section>
     </div>
 
-    <div id="contact-us" class="text-center" class="contact-box-center">
+    <div id="contact-us" class="text-center contact-box-center text-white">
     <section id="contact">
         <h2>Contact Us</h2>
         <br>
         <div>
             <span class="contact">Phone: </span>
+            <br>
             <span>07727408516</span>
         </div>
       
         <div>
             <span class="contact">Email: </span>
+            <br>
             <span>londonmuslimwomensbasketball@gmail.com</span>
         </div>
     </section>
