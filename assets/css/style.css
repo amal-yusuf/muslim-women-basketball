@@ -6,21 +6,24 @@
     box-sizing: border-box;
 }
 
+
 body {
     font-family: Lato, sans-serif;
     font-weight: 300;
-    color: #3a3a3a;
+    color: red;
    
 }
 
 /* headings and logo */
 
-h1, h2, h3{
+h1, h2 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
+    color: blue;
    
 }
+
 nav > a {
     text-decoration: none;
     color:tomato;
@@ -49,24 +52,24 @@ nav > a:hover {
 .black-background {
     background-color: black;
 }
-
+/*
 #logo {
     float: left;
     font-size: 280%;
     margin-left: 30px;
     color: #483c32;
-}
+   
+} */
 
 /* navigation links */
 
-#menu {
+/* #menu {
     font-size: 110%;
     letter-spacing: 3px;
+    line-height: 300px;
+    
 }
 
-#menu, #logo {
-    line-height: 75px;
-}
 
 #menu li {
     float: right;
@@ -76,21 +79,16 @@ nav > a:hover {
 
 #menu a {
     text-decoration: none;
-    color: inherit;
-}
+   /* color: inherit; */
+} */
 
-#menu a:hover {
+/*#menu a:hover {
     border-bottom: 1px solid #3a3a3a;
 }
 
 .active {
     border-bottom: 1px solid #3a3a3a;
-}
-
-.text-uppercase {
-    text-transform: uppercase;
-}
-  
+} */
 
     /* basketball hoop image 
 
@@ -102,36 +100,53 @@ nav > a:hover {
 
 /* background image is always centered vertically and horizontally at all times */
 
-html {
+/*html {
     
-    /* background: url("../images/basketball-hoop-image.jpeg") no-repeat center center fixed; */
+   background: url("../images/basketball-hoop-image.jpeg") no-repeat center center fixed; 
     background-size: cover;
     background-attachment: fixed;
-   /* background-color: #464646; */
+   background-color: #464646; 
     background-color: #209c31;
-    min-height: 100%;
-}  
+    min-height: 100%; 
+} */
 
-/* about us */
 
-#about-us {
-height: 600px;
-color: white;
-
+.text-center {
+    text-align: center;
 }
 
-#pragraph-1 {
-    padding-top: 30px;
-    width: 33%;
-    float: left;
-    background-color: darkorchid;
+/* about us section*/
+
+.about {
+    width: 100%;
+    padding: 80px 0;
+    background-color: #181818;
 }
 
-.p1 {
-    width: 60%;
-    float: left;
-    line-height: 20px;
-    clear: both;
+.about-text {
+width: 600px
+}
+
+.main {
+    width: 1130px;
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h2 {
+    color: #fff;
+    font-size: 80px;
+    text-transform:lowercase;
+    margin-bottom: 20px;
+}
+
+.about-text p {
+    color:#fff;
+    letter-spacing: 3px;
+    line-height: 30px;
+    font-size: 20px;
     margin-bottom: 50px;
 }
  
@@ -226,10 +241,6 @@ background-color:#ddd;
 margin-bottom: 250px;
   }
 
-  .text-center {
-      text-align: center;
-  }
-
   .contact-box-center {
     width: 250px;
     height: 300px;
@@ -240,7 +251,7 @@ margin-bottom: 250px;
 /* Footer */
 
 footer{
-    height: 150px;
+    height: 120px;
     background-color: #1c1a19;
     padding: 1em;
     text-align: center;
@@ -266,5 +277,5 @@ a:hover {
     margin: 1%;
     padding: 5%;
     color: silver;
-    line-height: 40px;
+    line-height: 1%;
 }
