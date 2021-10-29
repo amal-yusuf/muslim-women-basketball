@@ -306,18 +306,66 @@ width: 600px
   
 .contact {
     font-weight: bold;
-  }
-  
-  #contact {
-margin-bottom: 250px;
+    width: 100%;
+    padding: 80px 0;
+    background-color: #181818;
+    /* padding-right: 10px; */
+
+
   }
 
+  .fifth-main {
+    width: 1130px;
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contact-text h2 {
+    color: #fff;
+    font-size: 40px;
+    text-transform:capitalize;
+    margin-bottom: 20px;
+
+}
+
+.contact-text span {
+    color:#fff;
+   letter-spacing: 3px;
+   line-height: 30px;
+   font-size: 20px;
+   margin-bottom: 50px;
+}
+
+button {
+    background:rgb(180, 30, 11);
+    color: #fff
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 50px;
+    transition: .5s;
+}
+
+button:hover {
+    background: transparent;
+    border: 2px solid rgb(180, 30, 11);
+    cursor: pointer;
+}
+
+  /* #contact {
+margin-bottom: 250px;
+  } */
+/* 
   .contact-box-center {
     width: 250px;
     height: 300px;
     margin: 0 auto;
     text-align: center;
-}
+} */
 
 /* Footer */
 
