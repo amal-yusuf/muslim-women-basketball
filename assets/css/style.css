@@ -16,16 +16,17 @@ body {
 
 /* headings and logo */
 
-header > h1 { 
+header { 
     text-align: center;
-    background-color: rgb(180, 30, 11);
+    color:#fff;
+    background-color: black;
+    font-size: 40px;
 }
 
 h1, h2 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
-    letter-spacing: 3px;
-    
+    letter-spacing: 3px; 
    
 }
 
