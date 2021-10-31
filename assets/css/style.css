@@ -16,6 +16,11 @@ body {
 
 /* headings and logo */
 
+header > h1 { 
+    text-align: center;
+    background-color: rgb(180, 30, 11);
+}
+
 h1, h2 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
@@ -80,7 +85,7 @@ nav > a:hover {
 #menu a {
     text-decoration: none;
    /* color: inherit; */
-} */
+
 
 /*#menu a:hover {
     border-bottom: 1px solid #3a3a3a;
@@ -220,13 +225,13 @@ width: 600px
     margin: 0 auto;
     display: flex;
     align-items: center;
-    justify-content: space-arou
+    justify-content: space-around;
 }
 
 .scrimmage-text h2 {
     color: #fff;
     font-size: 40px;
-    text-transform:capitalize;
+    text-transform: capitalize;
     margin-bottom: 20px;
 
 }
@@ -234,7 +239,7 @@ width: 600px
 .scrimmage-text h3 {
     color: #fff;
     font-size: 30px;
-    text-transform:capitalize;
+    text-transform: capitalize;
     margin-bottom: 20px;
 }
 
@@ -267,7 +272,7 @@ width: 600px
     margin: 0 auto;
     display: flex;
     align-items: center;
-    justify-content: space-arou
+    justify-content: space-around; 
 }
 
 .signup-form {
@@ -284,7 +289,7 @@ width: 600px
     color: #fff;
     margin-bottom: 25px;
     font-size: 40px;
-    text-transform:capitalize;
+    text-transform: capitalize;
 }
 
 .text-input {
@@ -326,7 +331,7 @@ width: 600px
 .contact-text h2 {
     color: #fff;
     font-size: 40px;
-    text-transform:capitalize;
+    text-transform: capitalize;
     margin-bottom: 20px;
 
 }
@@ -341,7 +346,7 @@ width: 600px
 
 button {
     background:rgb(180, 30, 11);
-    color: #fff
+    color: #fff; 
     text-decoration: none;
     border: 2px solid transparent;
     font-weight: bold;
