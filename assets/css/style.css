@@ -1,36 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
 
-:root { 
-    --primary:#8c624a; 
-    --secondary: #E3CAA7; 
-    --tertiary: #000000; 
-
-}
-
-
-
-
-
 * { margin: 0;
     padding: 0;
     border: none;
     box-sizing: border-box;
 }
 
-
 body {
     font-family: Lato, sans-serif;
-    font-weight: 300;
-
-    /* background linear-gradient of 3 colors going from right to top */
-    /* background-color: linear-gradient(90deg, #8c624a, #E3CAA7, #000000); */
-    
-    /* var(--primary), var(--secondary), var(--tertiary) */
+    font-weight: 300;    
 }
+
+  /* background linear-gradient of 3 colors with 90 degree */
 
 .bg-gradient {
 
-    height: 100vh;
     width: 100%; 
     background-image: linear-gradient(90deg, #8c624a, #E3CAA7, #000000);
 }
@@ -44,21 +28,13 @@ header {
     font-size: 30px;
 }
 
-
-
 h1, h2 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px; 
-   
 }
 
 /* navigation links */
-
-nav {
-    color: #fff;
-    background-color: black; 
-}
 
 #menu {
     
@@ -68,18 +44,8 @@ nav {
      text-align: center;
      display: flex;
      justify-content: space-evenly;
-     align-items: center; 
-    
-     /* position:fixed;
-     top: 0;
-     left: 0; 
-     right: 0;
-     
-    
-     */
-     
+     align-items: center;    
 }
-
 
 #menu li {
     float: right;
@@ -89,16 +55,14 @@ nav {
 
 #menu a {
     text-decoration: none;
-    color:tomato;
+    color: rgb(180, 30, 11);
+ 
 }
    
 #menu a:hover {
     color: blue;
+    border-bottom: 1px solid blue;
 }
-
-/* #menu a:hover {
-    border-bottom: 1px solid #3a3a3a;
-} */
 
 .active {
     border-bottom: 1px solid #3a3a3a;
@@ -123,15 +87,6 @@ nav {
 .black-background {
     background-color: black;
 }
-/*
-#logo {
-    float: left;
-    font-size: 280%;
-    margin-left: 30px;
-    color: #483c32;
-   
-} */
-
 
 /* Home section */
 
@@ -168,7 +123,7 @@ nav {
     .home-text h2 
     {
         color: #fff;
-        font-size: 40px;
+        font-size: 30px;
         text-transform:capitalize;
         margin-bottom: 20px;
     }
@@ -177,7 +132,7 @@ nav {
         color:#fff;
         letter-spacing: 3px;
         line-height: 30px;
-        font-size: 20px;
+        font-size: 15px;
         margin-bottom: 50px;
     }
 
@@ -204,7 +159,7 @@ width: 600px
 }
 .about-text h2 {
     color: #fff;
-    font-size: 40px;
+    font-size: 30px;
     text-transform:capitalize;
     margin-bottom: 20px;
 }
@@ -213,7 +168,7 @@ width: 600px
     color:#fff;
     letter-spacing: 3px;
     line-height: 30px;
-    font-size: 20px;
+    font-size: 15px;
     margin-bottom: 50px;
 }
  
@@ -243,7 +198,7 @@ width: 600px
 
 .scrimmage-text h2 {
     color: #fff;
-    font-size: 40px;
+    font-size: 30px;
     text-transform: capitalize;
     margin-bottom: 20px;
 
@@ -251,7 +206,7 @@ width: 600px
 
 .scrimmage-text h3 {
     color: #fff;
-    font-size: 30px;
+    font-size: 20px;
     text-transform: capitalize;
     margin-bottom: 20px;
 }
@@ -260,7 +215,7 @@ width: 600px
      color:#fff;
     letter-spacing: 3px;
     line-height: 30px;
-    font-size: 20px;
+    font-size: 15px;
     margin-bottom: 50px;
 }
 
@@ -275,9 +230,8 @@ width: 600px
     padding-right: 10px;
     width: 100%;
     padding: 80px 0;
-    background-image: linear-gradient(90deg, #8c624a, #E3CAA7, #000000);
+    background-image: linear-gradient(90deg, #8c624a, #E3CAA7, #000000); 
 }
-
 
 .fourth-main {
     width: 1130px;
@@ -294,14 +248,14 @@ width: 600px
     background-color: rgba(90, 90, 90, 0.5);
     max-width: 700px;
     position: absolute;
-    left: 10%;
+    left: 20%;
     padding: 30px;
 }
 
  .signup-form > h2 {
     color: #fff;
     margin-bottom: 25px;
-    font-size: 40px;
+    font-size: 30px;
     text-transform: capitalize;
 }
 
@@ -325,9 +279,11 @@ width: 600px
 .contact {
     font-weight: bold;
     width: 100%;
+    height: 450px;
     padding: 80px 0;
-    background-image: linear-gradient(90deg, #8c624a, #E3CAA7, #000000);
-    /* padding-right: 10px; */
+    background-image:linear-gradient(90deg, #8c624a, #E3CAA7, #000000);
+    position: absolute;
+    text-align: center;
 
 
   }
@@ -343,22 +299,22 @@ width: 600px
 
 .contact-text h2 {
     color: #fff;
-    font-size: 40px;
+    font-size: 30px;
     text-transform: capitalize;
-    margin-bottom: 20px;
+    
 
 }
 
 .contact-text span {
     color:#fff;
-   letter-spacing: 3px;
+   letter-spacing: 2px;
    line-height: 30px;
-   font-size: 20px;
+   font-size: 15px;
    margin-bottom: 50px;
 }
 
 button {
-    background:rgb(180, 30, 11);
+    background: rgb(180, 30, 11);
     color: #fff; 
     text-decoration: none;
     border: 2px solid transparent;
@@ -374,45 +330,33 @@ button:hover {
     cursor: pointer;
 }
 
-  /* #contact {
-margin-bottom: 250px;
-  } */
-/* 
-  .contact-box-center {
-    width: 250px;
-    height: 300px;
-    margin: 0 auto;
-    text-align: center;
-} */
 
 /* Footer */
 
 footer{
-    height: 120px;
-    background-color: #1c1a19;
-    padding: 1em;
+    height: 100px;
+    background-color: #442D23;
+    padding: 1rem;
     text-align: center;
     width: 100%;
     position: fixed;
     bottom: 0;
     right: 0;
-    z-index: 3;
-    
-}
-
-a:hover {
-	text-decoration: none;
-	color: rgb(180, 30, 11);
+    z-index: 2;
+      
 }
 
 .social-networks{
     text-align: center;
 }
 
-.social-networks i{
+.social-networks i {
     font-size: 160%;
-    margin: 1%;
+    margin: -1%;
     padding: 5%;
     color: silver;
     line-height: 1%;
 }
+
+
+
