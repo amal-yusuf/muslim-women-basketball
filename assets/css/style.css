@@ -93,12 +93,21 @@ h1, h2 {
 /* For larger to medium screens size from 1200px wide and down */
 
 @media screen and (max-width: 1200px) {
+   
     #menu {
         width: 65%;
         height: 1200px;
         margin: 0 auto;
 
     }
+
+    /* .bg-gradient {
+        width: 100%;
+        padding: 30px 0;
+        margin: 0;
+        float: left;
+
+    } */
 
 #home {
     padding: 30px 0;
@@ -155,6 +164,42 @@ h1, h2 {
         line-height: 20px;
 
     }
+
+    #reasons-text {
+        left: 0;
+    }
+    #home {
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+
+    }
+
+    .bg-gradient {
+        width: inherit;
+    }
+
+    .home-text h2, .about-text h2, .scrimmage-text h2, .sign-up-form h2, .contact h2 {
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .home-text p, .about-text p, .scrimmage-text p, .contact-text p {
+        text-align: center;
+        padding: 0 20px;
+
+}
+
+.scrimmage-text h3 {
+    text-align: center;
+}
+
+.sign-up-form label input {
+
+    text-align: center;
+}
+
 }
 
 
