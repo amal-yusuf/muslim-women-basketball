@@ -24,7 +24,6 @@ body {
 header { 
     text-align: center;
     color:#fff;
-    background-color:  #E3CAA7 #8c624a #000000 ;
     font-size: 30px;
 }
 
@@ -101,13 +100,14 @@ h1, h2 {
 
     }
 
-    /* .bg-gradient {
+    
+    #home img {
         width: 100%;
-        padding: 30px 0;
-        margin: 0;
         float: left;
+        margin: 0%;
+        padding: 30px 0;
 
-    } */
+    } 
 
 #home {
     padding: 30px 0;
@@ -131,7 +131,7 @@ h1, h2 {
 
     #sign-up {
         clear: both;
-        width: 100%;
+        /* width: 100%; */
         float: left;
         /* height: 150px; */
         padding: 0;
@@ -149,6 +149,8 @@ h1, h2 {
     hr {
         display: none;
     }
+
+    
 
 }
 
@@ -179,7 +181,7 @@ h1, h2 {
         width: inherit;
     }
 
-    .home-text h2, .about-text h2, .scrimmage-text h2, .sign-up-form h2, .contact h2 {
+    .home-text h2, .about-text h2, .scrimmage-text h2, .contact-text h2 {
         width: 100%;
         text-align: center;
 
@@ -195,21 +197,20 @@ h1, h2 {
     text-align: center;
 }
 
-.sign-up-form label input {
+.signup-form {
 
     text-align: center;
 }
 
-}
 
+}
 
 
 /* Home section */
 
 .home {
-    width: 100%;
     padding: 80px 0;
-    background-color: linear-gradient(90deg, #8c624a, #E3CAA7, #e7e8e8);
+    
 
 }
 
@@ -217,7 +218,7 @@ h1, h2 {
 /* background image */
 
 .home img { 
-       background:  url("../images/basketball-image.jpg") center center cover no-repeat fixed; 
+       background:  url("../images/basketball-image.jpg") center center / cover no-repeat fixed; 
        height: auto;
        width: 500px; 
 
@@ -238,14 +239,14 @@ h1, h2 {
 
     .home-text h2 
     {
-        color: #fff;
+        color: #fafafa;
         font-size: 30px;
         text-transform:capitalize;
         margin-bottom: 20px;
     }
 
     .home-text p {
-        color:#fff;
+        color:#fafafa;
         letter-spacing: 3px;
         line-height: 30px;
         font-size: 15px;
@@ -256,9 +257,8 @@ h1, h2 {
 /* about section*/
 
 .about {
-    width: 100%;
     padding: 80px 0;
-    background-image: linear-gradient(90deg, #8c624a, #E3CAA7, #000000);
+
 }
 
 .about-text {
@@ -274,14 +274,14 @@ width: 600px
     justify-content: space-around;
 }
 .about-text h2 {
-    color: #fff;
+    color: #442D23;
     font-size: 30px;
     text-transform:capitalize;
     margin-bottom: 20px;
 }
 
 .about-text p {
-    color:#fff;
+    color:#442D23;
     letter-spacing: 3px;
     line-height: 30px;
     font-size: 15px;
@@ -294,9 +294,7 @@ width: 600px
     vertical-align: top;
     display: inline-block;
     padding-right: 10px;
-    width: 100%;
     padding: 80px 0;
-    background-image: linear-gradient(90deg, #8c624a, #E3CAA7, #000000);
 }
 
 .scrimmage-text {
@@ -313,7 +311,7 @@ width: 600px
 }
 
 .scrimmage-text h2 {
-    color: #fff;
+    color: #442D23;
     font-size: 30px;
     text-transform: capitalize;
     margin-bottom: 20px;
@@ -321,14 +319,14 @@ width: 600px
 }
 
 .scrimmage-text h3 {
-    color: #fff;
+    color: #442D23;
     font-size: 20px;
     text-transform: capitalize;
     margin-bottom: 20px;
 }
 
 .scrimmage-text p {
-     color:#fff;
+     color: #442D23;
     letter-spacing: 3px;
     line-height: 30px;
     font-size: 15px;
@@ -344,9 +342,8 @@ width: 600px
     background-position: center;
     height: 900px;
     padding-right: 10px;
-    width: 100%;
     padding: 80px 0;
-    background-image: linear-gradient(90deg, #8c624a, #E3CAA7, #000000); 
+
 }
 
 .fourth-main {
@@ -360,8 +357,8 @@ width: 600px
 
 .signup-form {
     margin: 100px 10% 0 0;
-    color: #fff;
-    background-color: rgba(90, 90, 90, 0.5);
+    color: #442D23;
+    background-color: rgba(227, 202, 167, 0.5);
     max-width: 700px;
     position: absolute;
     left: 20%;
@@ -369,7 +366,7 @@ width: 600px
 }
 
  .signup-form > h2 {
-    color: #fff;
+    color: #442D23;
     margin-bottom: 25px;
     font-size: 30px;
     text-transform: capitalize;
@@ -377,7 +374,7 @@ width: 600px
 
 .text-input {
      background: transparent;
-     color: #fff;
+     color: #442D23;
      width: 100%;
      height: 25px;
      margin: 5px 0 20px 0;
@@ -390,73 +387,20 @@ width: 600px
      
 }
 
-/* contact */
-  
-.contact {
-    width: 100%;
-    height: 450px;
-    padding: 80px 0;
-    background-image:linear-gradient(90deg, #8c624a, #E3CAA7, #000000);
-    position: absolute;
-    text-align: center;
 
-
-  }
-
-  .fifth-main {
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.contact-text h2 {
-    color: #fff;
-    font-size: 30px;
-    text-transform: capitalize;
-    
-
-}
-
-.contact-text span {
-    color:#fff;
-   font-size: 15px;
-  
-}
-
-button {
-    background: rgb(180, 30, 11);
-    color: #fff; 
-    text-decoration: none;
-    border: 2px solid transparent;
-    font-weight: bold;
-    padding: 10px 25px;
-    border-radius: 40px;
-    transition: .5s;
-    letter-spacing: 2px;
-    line-height: 30px;
-    margin-bottom: 50px;
-}
-
-button:hover {
-    background: transparent;
-    border: 2px solid rgb(180, 30, 11);
-    cursor: pointer;
-}
 
 
 /* Footer */
 
 footer{
-    height: 100px;
+    height: 150px;
     background-color: #442D23;
     padding: 1rem;
     text-align: center;
     width: 100%;
-    position: fixed;
     bottom: 0;
     right: 0;
-    z-index: 2;
+    z-index: 3;
       
 }
 
@@ -467,10 +411,26 @@ footer{
 .social-networks i {
     font-size: 160%;
     margin: -1%;
-    padding: 5%;
-    color: silver;
+    padding: 3%;
+    color: #E7E8E8;
     line-height: 1%;
+   
 }
+
+footer h2 {
+    text-align: center;
+    text-transform:capitalize;
+    font-size: 30px;
+
+}
+
+footer span {
+    font-size: 20px;
+}
+
+#contact:hover {
+    color: #B9A492;
+    border-bottom: 1px solid #B9A492;
 
 
 
