@@ -1,0 +1,519 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
+ 
+* { margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+ 
+:root {
+    --primary:#8c624a; 
+    --secondary: #000000;
+    --light: #E7E8E8;
+}
+
+body {
+    font-family: Lato, sans-serif;
+    font-weight: 300;    
+}
+ 
+  /* background linear-gradient of 3 colors with 90 degree */
+ 
+ .bg-gradient {
+ 
+    width: 100%; 
+    background: linear-gradient(90deg, var(--primary), var(--secondary));
+} 
+ 
+/* headings and logo */
+ 
+header { 
+    text-align: center;
+    color: #fff;
+
+    font-size: 20px;
+}
+ 
+h1, h2 {
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px; 
+}
+ 
+/* navigation links */
+ 
+nav ul {
+    
+     font-size: 10px;
+     letter-spacing: 3px;
+     /* line-height: 100px;    */
+     text-align: center;
+     display: grid;
+     grid-gap: 20px;
+     grid-template-columns: repeat(5, 1fr);
+     /* justify-content: space-evenly; */
+     /* align-items: center; */
+     padding: 30px;    
+     margin-right: 30px;
+}
+ 
+#menu li {
+    float: right;
+    list-style-type: none;
+}
+ 
+#menu a {
+    text-decoration: none;
+    /* color: rgb(180, 30, 11); */
+    background-color: #8c624a;
+    display: block;
+    text-decoration: none;
+    padding: 0.8rem;
+    text-align: center;
+    color: #E7E8E8;
+    text-transform: uppercase;
+    /* font-size: 0.9rem; */
+
+ 
+}
+   
+#menu a:hover {
+    color: #8c624a;
+    background: #E7E8E8;
+}
+ 
+.active {
+    border-bottom: 1px solid #3a3a3a;
+} 
+ 
+    .arrow-btn {
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+        z-index: 5;
+    }
+
+    .arrow-btn a {
+        height: 40px;
+        width: 35px;
+        text-align: center;
+        background: #1b1b1b;
+        display: block;
+        border-radius: 3px;
+        cursor: pointer;
+    
+    }
+
+    .arrow-btn a span {
+        color: #f2f2f2;
+        line-height: 40px;
+        font-size: 25px;
+        
+    }
+
+    
+
+ 
+/* Home section */
+ 
+.home {
+    padding: 80px 0;
+    
+ 
+}
+ 
+/* background image */
+ 
+.home img { 
+       background:  url("../images/basketball-image.jpg") center center / cover no-repeat fixed; 
+       height: 500px;
+       width: 100%; 
+       overflow: hidden;
+       position: relative;
+       border-radius: 25px;
+       
+ 
+} 
+ 
+.home-text {
+    width: 600px
+    }
+ 
+.main {
+        width: 1130px;
+        max-width: 100%;
+        margin: 0 auto;
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        justify-content: space-around;
+        padding: 5rem;
+    }
+ 
+    .home-text h2 
+    {
+        color: #fff;
+        font-size: 30px;
+        text-transform:capitalize;
+        margin-bottom: 20px;
+    }
+ 
+    .home-text p {
+        color:#fff;
+        letter-spacing: 3px;
+        line-height: 30px;
+        font-size: 15px;
+        margin-bottom: 50px;
+    }
+ 
+/* about section*/
+ 
+.about {
+    padding: 5rem;
+ 
+}
+ 
+.about-text {
+width: 600px;
+}
+ 
+.second-main {
+    width: 1130px;
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h2 {
+    color: #fff;
+    font-size: 30px;
+    text-transform:capitalize;
+    margin-bottom: 20px;
+}
+ 
+.about-text p {
+    color:#fff;
+    letter-spacing: 3px;
+    line-height: 30px;
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+ 
+/* scrimmage session section*/
+ 
+.scrimmage {
+    vertical-align: top;
+    display: inline-block;
+    padding-right: 10px;
+    padding: 5rem;
+}
+ 
+.scrimmage-text {
+    width: 600px;
+}
+ 
+.third-main {
+    width: 1130px;
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+ 
+.scrimmage-text h2 {
+    color: #fff;
+    font-size: 30px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+ 
+}
+ 
+.scrimmage-text h3 {
+    color: #fff;
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+ 
+.scrimmage-text p {
+     color: #fff;
+    letter-spacing: 3px;
+    line-height: 30px;
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+ 
+/* Form */
+ 
+.form-section {
+    clear: left;
+    background-size: cover;
+    background-position: center;
+    height: 1050px;
+    padding-right: 10px;
+    padding: 3rem;
+    
+ 
+}
+ 
+.fourth-main {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 15px;
+    background-color: #E7E8E8;
+    color: #442D23;
+    display: block;
+} 
+
+.signup-form {
+    margin: 100px 10% 0 0;
+    color: #fff;
+    background-color: rgba(227, 202, 167, 0.5);
+    max-width: 600px;
+    position: absolute;
+    left: 20%;
+    padding: 30px; 
+}
+ 
+ .signup-form > h2 {
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+ 
+.text-input {
+     background: transparent;
+     color: #442D23;
+     width: 100%;
+     height: 30px;
+     margin: 5px 0 20px 0;
+     border-radius: 2px;
+     border: 1px solid #E7E8E8;
+ }
+ 
+ .text-input:hover {
+     border-color: rgb(180, 30, 11);
+     
+}
+
+.fourth-main:hover {
+                color: #E7E8E8;
+                background-color: #442D23;
+                opacity: .6;
+}
+
+
+
+
+/* Footer */
+ 
+footer{
+    height: 250px;
+    background-color: #442D23;
+    padding: 5rem 0;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    right: 0;
+    z-index: 3;
+      
+}
+ 
+.social-networks{
+    text-align: center;
+}
+ 
+.social-networks i {
+    font-size: 160%;
+    margin: -1%;
+    padding: 3%;
+    color: #E7E8E8;
+    line-height: 1%;
+   
+}
+
+ 
+footer h2 {
+    text-align: center;
+    text-transform:capitalize;
+    font-size: 30px;
+ 
+}
+ 
+footer span {
+    font-size: 20px;
+}
+ 
+.social-networks span {
+    display: inline;
+}
+
+
+i:hover {
+    color: #B9A492;
+    border-bottom: 1px solid #B9A492;
+}
+
+/* Media queries */
+
+/* For large to medium screens sizes from 1200px wide and down */
+@media screen and (max-width: 1200px){
+
+ 
+    
+    #home {
+
+        
+        grid-template-columns: 1fr;
+        margin: 0%;
+        padding: 30px 0;
+    }
+    
+    img {
+        width: 65%;
+        float: left;
+        margin: 0%;
+        padding: 30px 0;
+        border-radius: 25px;
+        grid-template-columns: 1fr;
+ 
+    } 
+
+    #about {
+        width: 100%;
+        float: left;
+        clear: both;
+        padding: 0;
+
+    }
+
+    
+    #scrimmage-session {
+        width: 100%;
+        clear: both;
+        /* height: 150px; */
+        padding: 0;
+    }
+
+    
+    #sign-up {
+        clear: both;
+        width: 100%;
+        float: left;
+        /* height: 150px; */
+        padding: 0;
+    }
+
+    #contact {
+ 
+        width: 100%;
+        clear: both;
+        /* float: left; */
+        height: 400px;
+        display: block !important;
+        margin: 0px !important;
+        padding: 0px !important;
+        
+        
+    }
+
+    hr {
+        display: none;
+    }
+ 
+
+
+
+
+}
+
+/* For medium screens sizes from 950px wide and down */
+@media screen and (max-width: 950px){
+
+       
+    header {
+        width: 100%;
+        text-align: center;
+        clear: both;
+        margin: 0 auto;
+        
+      
+    }
+    
+    
+    #menu{
+        clear: left;
+        float: left;
+        margin-left: 30px; 
+        margin-bottom: 20px;
+        line-height: 25px;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        
+    }
+    
+
+img {
+    max-width: 100%;
+    width: 250px;
+    float: left;
+
+}
+
+.home-text, .about.text, .scrimmage-text {
+    width: inherit;
+}
+
+.home-text h2, .about-text h2, .scrimmage-text h2, .signup-form h2 {
+    width: 100%;
+    text-align: center;
+}
+
+.scrimmage-text h3 {
+    text-align: center;
+    width: 100%;
+}
+
+
+.home-text p, .about-text p, .scrimmage-text p {
+    
+    text-align: center;
+    padding: 0 15px;
+}
+
+
+}
+
+
+/* For small screens sizes from 800px wide and down */
+@media screen and (max-width: 800px){
+
+   #home {
+       width: 90%;
+       height: 1200px;
+       margin: auto;
+   } 
+
+   
+   #menu{
+    clear: left;
+    float: left;
+    margin-left: 30px; 
+    margin-bottom: 20px;
+    line-height: 25px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    
+}
+
+}
+
+
+
+ 
